@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "composite": false,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["ESNext"],
+    "types": ["node"],
+    "strict": true,
+    "outDir": "dist/plugins",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["plugins/**/*.ts"]
+}

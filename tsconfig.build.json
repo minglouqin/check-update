@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "types": ["node"],
+    "noEmit": true,
+    "strict": true
+  },
+  "include": ["scripts/**/*.ts"]
+}

@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "composite": false,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+    "strict": true,
+    "outDir": "dist/lib"
+  },
+  "include": ["lib/**/*.ts", "lib/**/*.vue"]
+}
