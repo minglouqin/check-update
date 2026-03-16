@@ -26,7 +26,8 @@
   "scripts": {
     "build:build": "tsx scripts/build.ts",
     "build:types": "vue-tsc -p tsconfig.browser.json --declaration --emitDeclarationOnly && tsc -p tsconfig.node.json --declaration --emitDeclarationOnly",
-    "build": "run-p build:build build:types"
+    "build": "run-p build:build build:types",
+    "prepack": "npm run build"
   },
   "keywords": [],
   "author": "",
